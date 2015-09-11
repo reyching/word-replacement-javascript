@@ -10,4 +10,8 @@ describe("wordReplacement", function() {
   it("replaces the found word with a new word of user's choice", function() {
     expect(wordReplacement("This is a house", "house", "bed")).to.eql("This is a bed")
   });
+
+  it("replaces the found word even if case doesn't match", function() {
+    expect(wordReplacement("This is a HOUSE", "house", "bed")).to.eql("This is a bed")
+  });
 });
