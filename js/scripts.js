@@ -5,7 +5,7 @@ var wordReplacement = function(string, find, replace) {
 $(document).ready(function(){
   $('form#wordReplacement').submit(function(event){
     var string = $('input#string').val();
-    var search = $('input#find').val();
+    var find = $('input#find').val();
     var replace = $('input#replace').val();
 
     var result = wordReplacement(string, find, replace);
