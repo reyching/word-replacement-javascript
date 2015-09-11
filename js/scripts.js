@@ -13,3 +13,4 @@ $(document).ready(function(){
     $('#result').text(result);
     event.preventDefault();
   });
+});
