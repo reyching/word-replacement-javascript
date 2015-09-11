@@ -1,3 +1,27 @@
+.result {
+  display: none;
+}
+
 #result {
-  
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+}
+
+.container {
+  font-size: 20px;
+  text-align: center;
+  background-color: black;
+  margin-top: 2em;
+  padding-top: 2em;
+  color: red;
+}
+
+.container#string {
+  color: black;
+}
+
+body {
+  background-color: tan;
 }

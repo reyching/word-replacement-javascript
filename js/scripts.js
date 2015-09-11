@@ -11,6 +11,7 @@ $(document).ready(function(){
     var result = wordReplacement(string, find, replace);
 
     $('#result').text(result);
+    $(".result").show();
     event.preventDefault();
   });
 });

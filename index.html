@@ -10,18 +10,19 @@
 <body>
     <div class="container">
       <form id="wordReplacement">
-        <label for="string">String:</label>
+        <label for="string">Your sentence:</label>
         <input type="text" name="string" id="string">
-        <label for="find">Search for:</label>
+        <label for="find">Word to replace:</label>
         <input type="text" name="find" id="find">
         <label for="replace">Replace with:</label>
         <input type="text" name="replace" id="replace">
+        <br>
         <br>
         <button type="submit" class="btn btn-danger">Submit</button>
       </form>
       <br>
       <div class="result">
-        <span id="result"></span>
+        <p>Your new sentence:   <span id="result"></span></p>
       </div>
     </div>
 </body>
