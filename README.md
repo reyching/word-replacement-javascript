@@ -17,7 +17,7 @@ _This application allows a user to input a sentence, a word they would like to r
 * _Enter the word that you would like to be inserted into the sentence_
 * _After clicking the submit button, your new sentence should appear!_
 
-_{Have fun!}_
+_Have fun!_
 
 ## Technologies Used
 
